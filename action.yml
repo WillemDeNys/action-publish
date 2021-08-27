@@ -18,6 +18,9 @@ inputs:
   registry:
     description: Optional. Specify what registry should be used.
     required: false
+  npmrc-options:
+    description: Optional. Specify the npmrc.
+    required: false
 outputs:
   modules:
     description: "A comma-delimited list of modules that were updated. Ex: '@myorg/mypkg@1.0.0, @myorg/myotherpkg@1.4.1'"
